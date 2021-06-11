@@ -1,0 +1,80 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: thistle;
+    font-size: 50px;
+    border-radius: 50px;
+    font-family: 'Comic Sans MS';
+    font-weight: 400;
+    text-align: center;
+    color: purple;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.grid img{
+    border: 2px solid purple;
+    border-radius: 50px;
+    background-attachment: whitesmoke;
+}
+
+.origami{
+    border: solid #551a8b;
+    border-radius: 75px;
+    width: 310px;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    font-weight: 400; 
+    background-color: whitesmoke;
+    color:#551a8b;
+
+}
+
+body{
+    background-color: cornsilk;
+}
+
+.body{
+    background-color: thistle;
+    border-radius: 50px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    color: purple;
+}
+
+a:link{
+    color: purple;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:visited{
+    color: cadetblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.origami:hover p{
+    position: absolute;
+    transform: translate(+10%,+900%);
+    opacity: 10;
+    font-size: 15px;
+    color: salmon;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+    justify-content: space-around;
+    margin: 100px;
+    position: relative;
+}
+
+.origami p{
+    opacity: 0;
+    font-size: 10px;
+}
+
